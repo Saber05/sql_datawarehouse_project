@@ -1,6 +1,8 @@
+-- Drop Database If exists
+DROP DATABASE IF EXISTS Datawarehouse; 
+
 -- Create the 'Datawarehouse' database
 CREATE DATABASE Datawarehouse;
-
 
 -- Create Schemas 
 CREATE schema bronze;
